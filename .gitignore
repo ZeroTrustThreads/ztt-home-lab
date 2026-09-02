@@ -1,0 +1,7 @@
+.DS_Store
+.vscode/*.log
+*.swp
+*.tmp
+.env
+secrets/
+private-notes/
