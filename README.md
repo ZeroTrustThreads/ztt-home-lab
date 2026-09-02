@@ -8,22 +8,25 @@ This project guides you through each step while explaining what you are building
 
 ## 📌 Project Status
 
-**Current milestone:** Foundation — Ubuntu Server in UTM with SSH access
+**Current milestone:** Foundation — Ubuntu Server VM with networking and SSH access
 
-The initial release is being built around macOS and UTM. Additional platforms may be added as the project grows.
+The foundation curriculum includes beginner installation paths for macOS, Windows, and Linux. Each path leads to the same shared Ubuntu Server, networking, SSH, validation, and troubleshooting lessons.
 
 ---
 
 ## 🎯 What You Will Build
 
 ```text
-Mac
- └── UTM
-      └── Ubuntu Server VM
-           ├── Local user account
-           ├── Network connection
-           ├── SSH access
-           └── Future security labs
+Choose your host computer
+ ├── macOS   → UTM
+ ├── Windows → VMware Workstation Pro
+ └── Linux   → GNOME Boxes / KVM
+                    ↓
+             Ubuntu Server VM
+              ├── Local user account
+              ├── Network connection
+              ├── SSH access
+              └── Future security labs
 ```
 
 The finished foundation gives you an isolated Linux environment where you can safely practice system administration and defensive security concepts.
@@ -47,11 +50,12 @@ The finished foundation gives you an isolated Linux environment where you can sa
 
 You will need:
 
-- A Mac capable of running UTM
-- Enough free storage for UTM, an Ubuntu image, and the virtual machine
-- An internet connection for downloads and updates
-- Administrator access to your Mac
-- Time to read each step instead of rushing through the setup
+- A macOS, Windows, or Linux computer with supported hardware virtualization
+- Enough memory and free storage for the host system, virtualization software, Ubuntu image, and VM
+- An internet connection for official downloads and updates
+- Administrator access to install virtualization software
+- An Ubuntu Server image compatible with the VM architecture
+- Time to read, document, and validate each step instead of rushing through setup
 
 Keep the lab isolated from sensitive personal or work systems. Use only software and systems you own or are authorized to operate.
 
@@ -105,7 +109,9 @@ Describe what happened, what could fail, and how you would investigate it.
 
 ### Milestone 1 — Foundation
 
-- [ ] Install UTM
+- [ ] Identify the host operating system and processor architecture
+- [ ] Install the recommended virtualization tool for macOS, Windows, or Linux
+- [ ] Download a compatible Ubuntu Server LTS image from an official source
 - [ ] Create an Ubuntu Server VM
 - [ ] Complete Ubuntu setup
 - [ ] Update the operating system
