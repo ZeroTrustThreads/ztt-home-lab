@@ -9,6 +9,13 @@ Answer these in your own words. The goal is understanding, not memorization.
 3. Why does a VM reduce risk without providing perfect isolation?
 4. What is the difference between virtualization and emulation?
 
+## Platform selection
+
+1. Why does the recommended virtualization application differ by host operating system?
+2. How did you identify your processor architecture?
+3. Why must guest and VM architectures be compatible?
+4. Which parts of the lab remain the same across macOS, Windows, and Linux?
+
 ## Ubuntu installation
 
 1. Why must the Ubuntu image architecture match the VM configuration?

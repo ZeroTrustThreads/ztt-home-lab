@@ -1,5 +1,12 @@
 # Troubleshooting
 
+## Start with the host
+
+- **macOS/UTM:** Confirm that the Ubuntu image matches Apple silicon or Intel architecture.
+- **Windows/VMware:** Confirm virtualization is enabled in Task Manager and the computer firmware.
+- **Linux/Boxes:** Run `gnome-boxes --checks` and resolve blocking virtualization errors.
+- On every host, confirm sufficient free memory and storage before starting the VM.
+
 ## The VM boots back into the installer
 
 Shut down the VM, detach the Ubuntu ISO from its virtual removable drive, and start the VM again.

@@ -59,18 +59,23 @@ Keep the lab isolated from sensitive personal or work systems. Use only software
 
 ## 🚀 Start Here
 
-Complete the guides in order:
+Start with the [platform chooser](docs/platform-chooser.md), then follow the path for your computer:
 
-1. [Understand the lab](docs/00-lab-overview.md)
-2. [Install UTM](docs/01-install-utm.md)
-3. [Create the Ubuntu Server VM](docs/02-create-ubuntu-server-vm.md)
-4. [Complete first boot and updates](docs/03-first-boot.md)
-5. [Connect with SSH](docs/04-connect-with-ssh.md)
-6. [Validate the foundation](checklists/foundation-validation.md)
-7. [Troubleshoot common problems](docs/troubleshooting.md)
-8. [Review the glossary](docs/glossary.md)
-9. [Complete the knowledge checks](docs/knowledge-checks.md)
-10. [Document your work](checklists/lab-journal-template.md)
+| Host computer | Virtualization tool | Installation path |
+|---|---|---|
+| macOS | UTM | [Mac path](docs/01-install-utm.md) |
+| Windows | VMware Workstation Pro | [Windows path](docs/windows/01-install-vmware-workstation.md) |
+| Linux | GNOME Boxes/KVM | [Linux path](docs/linux/01-install-gnome-boxes.md) |
+
+After Ubuntu is installed, everyone continues with the shared lessons:
+
+1. [Complete first boot and updates](docs/03-first-boot.md)
+2. [Connect with SSH](docs/04-connect-with-ssh.md)
+3. [Validate the foundation](checklists/foundation-validation.md)
+4. [Troubleshoot common problems](docs/troubleshooting.md)
+5. [Review the glossary](docs/glossary.md)
+6. [Complete the knowledge checks](docs/knowledge-checks.md)
+7. [Document your work](checklists/lab-journal-template.md)
 
 ---
 

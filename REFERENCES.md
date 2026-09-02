@@ -16,6 +16,19 @@ The lab uses primary documentation whenever possible. Product interfaces and sup
 - [Linux guest support](https://docs.getutm.app/guest-support/linux/) — Linux guest tools and sharing features.
 - [UTM network settings](https://docs.getutm.app/settings-qemu/devices/network/) — virtual network modes and device settings.
 
+### Windows and VMware Workstation
+
+- [Broadcom: Downloading free software](https://knowledge.broadcom.com/external/article/397417/downloading-free-software-from-the-broad.html) — current portal workflow for free software.
+- [Broadcom: Download VMware Workstation Pro](https://knowledge.broadcom.com/external/article/344595/downloading-vmware-workstation-pro.html) — current Workstation download path.
+- [Broadcom: Desktop hypervisor downloads](https://knowledge.broadcom.com/external/article/368734/download-desktop-hypervisor-workstation.html) — account, verification, and product-download details.
+
+### Linux and GNOME Boxes
+
+- [GNOME Boxes help](https://help.gnome.org/gnome-boxes/index.html) — official task and concept documentation.
+- [Create a box](https://help.gnome.org/gnome-boxes/create.html) — ISO selection and VM creation.
+- [GNOME Boxes system requirements](https://help.gnome.org/gnome-boxes/system-requirements.html) — hardware virtualization and resource guidance.
+- [Technology used by Boxes](https://help.gnome.org/gnome-boxes/supported-protocols.html) — QEMU, KVM, libvirt, and SPICE concepts.
+
 ### Ubuntu Server
 
 - [Download Ubuntu Server](https://ubuntu.com/download/server) — official installation images.
